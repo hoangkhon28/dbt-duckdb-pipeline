@@ -1,0 +1,7 @@
+sources:
+  - name: raw
+    description: One row per job posting scrape, raw from the pipeline
+    tables:
+      - name: job_postings
+        config:            # dbt v2 dùng config, v1 dùng meta
+          external_location: "../data/raw/raw_job_postings_*.parquet"
