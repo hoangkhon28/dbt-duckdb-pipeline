@@ -97,7 +97,7 @@ SELECT * FROM monthly_summary;
 
 dbt-generated documentation, including the full lineage graph, is published via GitHub Pages:
 
-- **Live docs:** _add your GitHub Pages URL here_
+- **Live docs:** https://hoangkhon28.github.io/dbt-duckdb-pipeline/
 
 ## Getting started
 
